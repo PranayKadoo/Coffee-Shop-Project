@@ -1,0 +1,177 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+   position:relative;
+   height:15vw;
+}
+    /* #n1child{
+        position: absolute;
+        top:0;
+        left:3%
+    } */
+#n2child{
+    position: absolute;
+    top:20%;
+    right:5%;
+    font-size: 4vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#n2child li{
+    padding: 2vw;
+}
+#n2child li:hover{
+    padding: 2vw;
+    background-color: whitesmoke;
+}
+
+#nav img{
+    width: 40%;
+    height:auto
+}
+ul#menu li{
+    display:inline;
+    color:brown;
+}
+ul#menu li {
+    display:inline;
+  }
+#elm1{
+    position: absolute;
+
+}
+
+.bg img{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height:auto
+}
+
+.middle{
+    text-align: center;
+}
+.middle img{
+    position: absolute;
+    left:15%;
+    width:60%;
+    height: auto;
+}
+#mfont1{
+    font-size:4vw;
+    font-family: papyrus;
+}
+#mfont2{
+    font-size:2vw;
+    font-family: papyrus;
+}
+#mel{
+    position: absolute;
+    left:40%;
+    width:20%;
+}
+
+.middle2{
+    position: relative;
+}
+
+.child1{
+    position: absolute;
+    left:2%;
+}
+.child1 img{
+    width:8%;
+    height:auto;
+}
+.child1 img:hover{
+    width: 11%;
+    height:auto;
+}
+
+.fontm2{
+    font-size: 2vw;
+    font-family: papyrus;
+color: whitesmoke;
+}
+
+
+.child2{
+    position: absolute;
+    top:10vw;
+    left: 38%;
+    right:20%;
+}
+.child2 img{
+    
+    width:55%;
+    height:auto;
+}
+.child2 img:hover{   
+    width:65%;
+    height:auto;
+}
+
+
+.child3{
+    position: absolute;
+    left:70%;
+}
+.child3 img{
+    width:8%;
+    height:auto;
+}
+.child3 img:hover{
+    width: 11%;
+    height:auto;
+}
+#fpress, #pastry, #takeaway{
+    width:22%;
+    height:auto;
+    background-color: whitesmoke;
+    opacity: 0.5;
+}
+
+#fpress:hover, #pastry:hover,#takeaway:hover{
+    width:26%;
+    height:auto;
+}
+#bgm{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    height: auto;
+}
+#hide1{
+    position: absolute;
+    top:6vw;
+    left:10%;
+    width:80%;
+    height:50vw;
+
+}
+#btn1{
+    position: absolute;
+    top:7vw;
+    right:14%;
+    font-size: 3vw;
+    color: orangered;
+    background-color: whitesmoke;
+    border: 2px solid rgb(8, 231, 8);
+    border-radius: 2px;
+
+}
+#btn1:hover{
+    position: absolute;
+    right:14%;
+    font-size: 3vw;
+    color: orangered;
+    background-color: whitesmoke;
+    border: 2px solid rgb(231, 4, 4);
+    border-radius: 2px;
+
+}
+
